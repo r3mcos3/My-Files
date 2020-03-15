@@ -21,7 +21,7 @@ prompt pure
 # History in cache directory:
 HISTSIZE=10000
 SAVEHIST=10000
-HISTFILE=~/.cache/zsh/history
+HISTFILE=~/.zsh_history
 setopt SHARE_HISTORY
 
 # Basic auto/tab complete:

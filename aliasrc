@@ -35,6 +35,11 @@ alias unifiap='ssh remco@10.10.10.7'
 alias sshusg='ssh remco@10.10.10.1'
 alias sshpc='ssh remco@10.10.20.10'
 alias sshpi='ssh pi@10.10.20.13'
+alias proxmox="ssh root@10.10.50.88"
+alias wgup="sudo wg-quick up wg0-client"
+alias wgdown="sudo wg-quick down wg0-client"
+
+
 alias ls='ls --color=auto'
 alias ll='ls -l'
 # ls, the common ones I use a lot shortened for rapid fire usage
@@ -220,4 +225,4 @@ alias ssn="sudo shutdown now"
 alias sr="sudo reboot"
 
 neofetch
-alias proxmox="ssh root@10.10.50.88"
+
